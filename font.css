@@ -1,0 +1,22 @@
+body {
+    font-family: 'Kanit', 'Sarabun', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+p,
+span,
+a,
+label,
+input,
+select,
+button,::placeholder {
+    font-family: 'Sarabun', sans-serif !important;
+}

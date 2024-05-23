@@ -1,0 +1,38 @@
+.nav-link {
+    color: black;
+}
+
+.follow button {
+    background-color: #03A9F4 !important;
+    border-color: #03A9F4 !important;
+}
+
+.follow button:hover {
+    color: #ffffff !important;
+    border-color: #03A9F4 !important;
+    background-color: #03A9F4 !important;
+}
+
+.nav-underline .nav-link.active {
+    color: #03A9F4 !important;
+}
+
+.nav-underline .nav-link.active, .nav-underline .show>.nav-link {
+    font-weight: 700;
+    color: #03A9F4 !important;
+    border-bottom-color: currentcolor;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-outline-primary{
+    color: #03A9F4 !important;
+    border-color: #03A9F4 !important;
+}
+.btn-outline-primary:hover{
+    background-color: #03A9F4 !important;
+    color: white !important;
+}

@@ -1,0 +1,22 @@
+h5.r-w {
+    color: #01579B;
+}
+
+.q-h .card {
+    background-color: #F7F7F7;
+    border: none;
+    border-radius: 1rem;
+    min-height: 7rem;
+    transition: 0.1s;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q-h .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0rem 0.25rem 0.25rem 0rem #888888;
+}

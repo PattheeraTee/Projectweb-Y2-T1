@@ -1,0 +1,26 @@
+#menu1 a{
+    color: #ffd54f;
+    font-weight: bolder;
+}
+
+.rec img {
+    display: block;
+    object-fit: cover;
+    min-height: 40vh;
+}
+
+span.card-text {
+    font-size: 0.9rem;
+}
+
+.home-head{
+    color: #03A9F4;
+    
+}
+.home-nav a{
+    color: #ffd54f !important;
+}
+
+h2.name-to-read:hover {
+    color: #03A9F4;
+}

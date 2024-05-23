@@ -1,0 +1,18 @@
+footer {
+    background-color: #03A9F4;
+    line-height: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E1F5FE;
+    transition: .1s;
+}
+
+footer ul li a:hover {
+    color: #FFD54F !important;
+}
+
+footer ul li a i {
+    padding-right: 0.5rem;
+}

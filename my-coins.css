@@ -1,0 +1,56 @@
+.top-up a {
+    color: white !important;
+    background-color: #03A9F4 !important;
+    border-color: #03A9F4 !important;
+}
+
+.top-up a:hover {
+    color: #ffffff !important;
+    border-color: #01579B !important;
+    background-color: #01579B !important;
+}
+
+.nav-underline .nav-link.active{
+    color: #03A9F4 !important;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav button {
+    margin: 0 5rem;
+}
+
+tr th {
+    background-color: #D9D9D9 !important;
+}
+
+@media (max-width: 767px) {
+    .penname {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top-up a.fb {
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    #nav-tab button {
+        font-size: 0.5rem;
+        width: 100%;
+        padding: 1;
+    }
+}
+
+table {
+    font-size: 1rem;
+}
+

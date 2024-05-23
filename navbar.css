@@ -1,0 +1,349 @@
+
+/* nav a {
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+}
+.nav-container-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: white;
+}
+.nav-container-top ul {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0rem;
+}
+
+
+
+.nav-container-bottom{
+    display: flex;
+    background-color: #03a9f4;
+    justify-content: center;
+    align-items: center;
+}
+.nav-container-bottom ul.nav-level1{
+    list-style-type: none;
+    display: flex;
+    gap: 10rem;
+    margin: 0px;
+}
+.nav-item:hover>.arrow-down,
+.nav-item:hover>a
+{
+    color: #d9d9d9;
+}
+.nav-item-level2:hover>.arrow-right,
+.nav-item-level2:hover>a,.nav-item-level3:hover>a
+{
+    color: #03a9f4;
+}
+
+.arrow-down{
+    font-size: 1rem;
+    color: white;
+}
+nav i{
+    font-size: 1rem;
+    color: #8d8484;
+}
+.nav-level2 a{
+    color: #8d8484;
+}
+.nav-level1 li{
+    position: relative;
+}
+.nav-level2{
+    position: absolute;
+    width: max-content;
+    background-color: #f7f7f7;
+    left: 0px;
+    top: 100%;
+    border-radius: 0.3rem;
+    display: none;
+    border: 1px solid #8d8484;
+}
+.nav-level2,.nav-level3{
+    padding: 0px;
+}
+.nav-item:hover>.nav-level2,.nav-item-level2:hover>.nav-level3{
+    display: block;
+}
+
+.nav-level3{
+    position: absolute;
+    width: max-content;
+    background-color: #f7f7f7;
+    left: 100%;
+    top: 0px;
+    border-radius: 0.3rem;
+    display: none;
+    border: 1px solid #8d8484;
+}
+nav ul.nav-level1 li{
+    padding: 1rem;
+    font-size: 1.25rem;
+    box-sizing: border-box;
+} */
+@media (max-width: 767px) {
+    .logo-image{
+        width: 5rem;
+        height: 3rem;
+    }
+    .nav-top-icon{
+        width: 2.25rem;
+    }
+}
+
+@media (min-width: 767px) {
+    .logo-image{
+        width: 6.25rem;
+        height: 3.75rem;
+    }
+    .nav-top-icon{
+        width: 2.25rem;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .logo-image{
+        width: 6.25rem;
+        height: 3.75rem;
+    }
+    .nav-top-icon{
+        width: 2.25rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .logo-image{
+        width: 6.25rem;
+        height: 3.75rem;
+    }
+    .nav-top-icon{
+        width: 2.25rem;
+    }
+}
+nav a,nav i{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+}
+nav .level1 li{
+    position: relative;
+}
+nav .level2{
+    position: absolute;
+    background-color: #f7f7f7;
+    padding: 0rem;
+    left: 30%;
+    top: 100%;
+    border-radius: 0.3rem;
+    display: none;
+    border: 1px solid #8d8484;
+    width: max-content;
+}
+nav .level2 a,nav .level2 i{
+    color: #8d8484;
+}
+nav .level3{
+    position: absolute;
+    background-color: #f7f7f7;
+    padding: 0rem;
+    left: 100%;
+    top: 0rem;
+    border-radius: 0.3rem;
+    border: 1px solid #8d8484;
+    display: none;
+    width: max-content;
+}
+.level3-item,.level2-item{
+    padding: 1rem 2rem;
+}
+.level1-item{
+    padding: 1rem 0rem;
+}
+.level1-item:hover>a,.level1-item:hover>.arrow-down{
+    color: #d9d9d9;
+}
+li.level2-item:hover>a,li.level2-item:hover>.arrow-right{
+    color: #03a9f4;
+}
+li.level2-item:hover,li.level3-item:hover{
+    background-color: #e1f5fe;
+    border-radius: 0.3rem;
+}
+
+.level1-item:hover>.level2,.level2-item:hover>.level3{
+    display: block;
+}
+
+ul.level1{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.dropdown-menu>.dropdown-submenu>a:active{
+    background-color: #e1f5fe !important;
+    color: #000000 !important;
+}
+.dropdown-menu>li>a.dropdown-item:active{
+    background-color: #e1f5fe !important;
+    color: #000000 !important;
+    
+}
+.dropdown-menu>li>a:hover::after:active{
+    color: #000000;
+    text-align: center;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu{
+    display: block;
+    
+}
+.dropdown-menu>li>a:hover{
+    color: #03A9F4;
+} 
+.dropdown-menu>li>a:hover::after{
+    transform: rotate(-90deg);
+    color: #03A9F4;
+} 
+.nav-bad .dropdown-menu>li>a:hover::after{
+    transform: rotate(270deg);
+    color: #03A9F4;
+} 
+.dropdown-menu>li>a:hover{
+    color: #03A9F4;
+} 
+.nav2{
+    background-color: #03a9f4;
+}
+nav a,nav i{
+    color: white;
+    text-decoration: none;
+}
+.nav1 a{
+    color: #03A9F4;
+}
+nav ul{
+    list-style-type: none;
+}
+nav .level1 li{
+    position: relative;
+    margin: 0rem 0rem;
+}
+
+.nav-level1 li{
+    position: relative;
+}
+.nav-level1 li a{
+    text-align: start;
+}
+nav .level2{
+    position: absolute;
+    background-color: #f7f7f7;
+    background-color: white;
+    padding: 0rem;
+    left: 0rem;
+    top: 100%;
+    border-radius: 0.3rem;
+    display: none;
+    border: 1px solid #8d8484;
+    width: max-content;
+}
+
+nav .nav-level2{
+    position: absolute;
+    
+}
+nav .level2 a,nav .level2 i{
+    color: #8d8484;
+    color: #000000;
+}
+
+nav .level3{
+    position: absolute;
+    background-color: #f7f7f7;
+    padding: 0rem;
+    left: 100%;
+    top: 0rem;
+    border-radius: 0.3rem;
+    border: 1px solid #8d8484;
+    display: none;
+    width: max-content;
+}
+.nav-sad .level3{
+    position: absolute;
+    left: -100%;
+    top: calc(25%);
+}
+.level3-item,.level2-item{
+    padding: 0.5rem 1rem;
+}
+.level1-item{
+    padding: 0rem 0rem;
+}
+
+li.level2-item:hover,li.level3-item:hover{
+    background-color: #e1f5fe;
+    border-radius: 0.3rem;
+}
+
+.level1-item:hover>.level2,.level2-item:hover>.level3{
+    display: block;
+}
+.nav1,.nav2{
+   
+    box-sizing: border-box;
+}
+.nav1 .navbar-brand{
+    margin: 0px;
+    padding: 0px;
+}
+.nav1 img,.nav2 img{
+    min-width: 30px;
+    flex-wrap: nowrap;
+}
+.btn-primary{
+    background-color: #03a9f4;
+    border-color: #03a9f4;
+}
+.btn-primary:hover{
+    background-color: #01579B;
+}
+html{
+    min-width: 300px;
+}
+.home-nav:hover a,.event-nav:hover a,a.type-nav:hover,.top-chart-nav:hover a{
+    color: #01579B !important;
+}
+
+@media (max-width: 576px) {
+            .nav2 .navbar-nav {
+                flex-direction: column;
+            }
+
+            .nav2 .navbar-nav .nav-item {
+                width: 100%;
+                text-align: center;
+            }
+
+            .nav2 .navbar-nav .nav-link {
+                padding: 1rem 0;
+            }
+            
+}
